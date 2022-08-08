@@ -68,6 +68,7 @@ arrprint(struct arr* arr, void(*pt)(void*)) {
     for(int i = 0; i < arr->len; i++ ) {
         (*pt)(arr->buf[i]);
     }
+    printf("\n");
 }
 
 
